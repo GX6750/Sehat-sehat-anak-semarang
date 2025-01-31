@@ -20,17 +20,22 @@
       overflow: hidden;
       position: relative;
     }
+    .text-container {
+      position: relative;
+      z-index: 3; /* Teks di layer paling atas */
+      background: rgba(255, 255, 255, 0.3); /* Latar belakang semi-transparan untuk teks */
+      padding: 20px;
+      border-radius: 10px;
+    }
     h1 {
       font-size: 4rem;
       animation: fadeIn 2s ease-in-out;
       margin: 0;
-      z-index: 3; /* Teks di layer paling atas */
     }
     h2 {
       font-size: 2.5rem;
       animation: fadeIn 3s ease-in-out;
       margin-top: 20px;
-      z-index: 3; /* Teks di layer paling atas */
     }
     .floating-photo {
       position: absolute;
